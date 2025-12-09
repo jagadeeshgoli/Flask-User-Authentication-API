@@ -2,28 +2,28 @@
 
 A secure REST API built by **Goli Jagadeesh** for user registration, login, logout, and protected profile access using session-based authentication. Designed as a lightweight backend to understand core API concepts, password hashing, and authentication workflows.
 
-##  Developer
+## 👨‍💻 Developer
 **Goli Jagadeesh**  
 Python & Backend Developer (Fresher)  
- Lam, Guntur, Andhra Pradesh — 522034  
- 7671086404  
- jagadeeshgoli22@gmail.com  
- GitHub: https://github.com/jagadeeshgoli  
- LinkedIn: https://linkedin.com/in/jagadeeshgoli
+📍 Lam, Guntur, Andhra Pradesh — 522034  
+📱 7671086404  
+📧 jagadeeshgoli22@gmail.com  
+🔗 GitHub: https://github.com/jagadeeshgoli  
+🔗 LinkedIn: https://linkedin.com/in/jagadeeshgoli
 
 ---
 
-##  Features
--  Secure user registration with validation  
--  Password hashing using Werkzeug  
--  Session-based login & logout  
--  Protected `/profile` endpoint  
--  Clean JSON responses  
--  Built-in error handling  
+## 🚀 Features
+- 🔐 Secure user registration with validation  
+- 🛡️ Password hashing using Werkzeug  
+- 🔑 Session-based login & logout  
+- 🔒 Protected `/profile` endpoint  
+- 📦 Clean JSON responses  
+- ⚠️ Built-in error handling  
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 | Component | Technology |
 |----------|------------|
 | Language | Python 3.8+ |
@@ -34,32 +34,33 @@ Python & Backend Developer (Fresher)
 
 ---
 
-##  API Endpoints
+## 📌 API Endpoints
 
-### ** POST /register**
+### **1️⃣ POST /register**
 Register a new user  
 Validates username, email, and password.
 
-### ** POST /login**
+### **2️⃣ POST /login**
 Authenticates user and creates session.
 
-### ** GET /profile**
+### **3️⃣ GET /profile**
 Returns user details.  
- Requires login (protected route)
+➡️ Requires login (protected route)
 
-### ** POST /logout**
+### **4️⃣ POST /logout**
 Destroys user session.
 
-### ** GET /**
+### **5️⃣ GET /**
 Returns API status + available routes.
 
 ---
 
-##  Installation
+## 📦 Installation
 
 ### Requirements
 ```bash
 pip install Flask
+
 ````
 
 ### Setup
