@@ -36,21 +36,21 @@ Python & Backend Developer (Fresher)
 
 ##  API Endpoints
 
-### ** POST /register**
+### **1 POST /register**
 Register a new user  
 Validates username, email, and password.
 
-### ** POST /login**
+### **2 POST /login**
 Authenticates user and creates session.
 
-### ** GET /profile**
+### **3 GET /profile**
 Returns user details.  
  Requires login (protected route)
 
-### ** POST /logout**
+### **4 POST /logout**
 Destroys user session.
 
-### ** GET /**
+### **5 GET /**
 Returns API status + available routes.
 
 ---
