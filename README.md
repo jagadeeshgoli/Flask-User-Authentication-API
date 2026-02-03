@@ -66,7 +66,7 @@ pip install Flask
 ### Setup
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/jagadeeshgoli/Flask-User-Authentication-API
 cd flask-auth-api
 
 python -m venv venv
